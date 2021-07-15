@@ -6,18 +6,18 @@
  */
 
  /*all */
-body{ padding-top: 130px;}
-body.active{ padding-top: 110px;}
+/*body{ padding-top: 130px;}*/
+/*body.active{ padding-top: 110px;}*/
 
 /* header */
-.myui-header__top{position:fixed;top:0px; z-index:999; width:100%; background-color: #fff; height: 111px; box-shadow: 0 2px 5px rgba(0,0,0,.05);}
+.myui-header__top{ z-index:999; width:100%; background-color: #fff; height: 111px; box-shadow: 0 2px 5px rgba(0,0,0,.05);}
 .top-fixed-down{margin-top:-61px;}
 
 /* header-logo */
 .myui-header__logo,.myui-header__menu{float:left;}
 
 /* header-seacrh */
-.myui-header__search{ padding: 0; width: 100%;}
+.myui-header__search{ padding: 0; width: 100%; border-top: 1px solid #eee;}
 .myui-header__search .search-hot{ line-height: 48px;}
 .myui-header__search .search-hot a{ display: inline-block; margin-left: 20px; color: #666;}
 .myui-header__search .search-hot span{ color: #666;}
@@ -57,7 +57,7 @@ body.active{ padding-top: 110px;}
 
 /* header-color */
 .myui-header__top.color{ background: none; border-bottom: 1px solid rgba(255,255,255,0.1); box-shadow: none;}
-.myui-header__top.color .myui-header__menu > li > a,.myui-header__top.color .myui-header__user > li > a,.myui-header__top.color .myui-header__user > li > a .fa,.myui-header__top.color .myui-header__search li.search-box .form-control,.myui-header__top.color .myui-header__search li.search-ul .fa,.myui-header__top.color .myui-header__search li.search-select
+.myui-header__top.color .myui-header__menu > li > a,.myui-header__top.color .myui-header__user > li > a,.myui-header__top.color .myui-header__user > li > a .fa,.myui-header__top.color .myui-header__search li.search-box .form-control,.myui-header__top.color .myui-header__search li.search-ul .fa,.myui-header__top.color .myui-header__search li.search-select .text{ color: #001dec;}
 .myui-header__top.color .myui-header__search li.search-ul,.myui-header__top.color .myui-header__search li.search-select{ border-right: 1px solid rgba(255,255,255,0.1);}
 .myui-header__top.color .myui-header__search{ border-top: 1px solid rgba(255,255,255,0.1);}
 .myui-header__top.color .myui-header__search .search-hot a{ color: #ddd;}
